@@ -1,0 +1,88 @@
+body {
+    text-align:center;
+    background-image: url(fondo.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(31, 30, 30, 0.486);
+}
+.encabezado {
+    align-content: center;
+    align-items: center;
+    margin:auto;
+    font-size:x-large;
+    font-family:monospace;
+    color:brown;
+    border-radius: 3px;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    color: black;
+
+}
+p {
+    display: block;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.datosform{
+    display: block;
+    margin-top: 20px;
+    padding: 50px 100px 50px 100px;
+    font-family: 'calibri';
+    font-size: x-large;
+    background-color: rgba(235,121,75,1);
+}
+
+form {
+    font-family: 'calibri';
+    background-color: white;
+    padding: 10px ;
+    width: 500px;
+    border-radius: 3px;
+    margin: 0 auto;
+    height: 510px;
+    font-size: 22px;
+    box-shadow: 7px  13px 37px #080808;
+}
+.relleno{
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid rgb(219, 117, 117);
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#button {
+    font-family: 'calibri';
+    background-color: brown;
+    color: white;
+    font-size: 25px;
+    border-radius: 12px;
+    width: 150px;
+    border: none;
+    top: -80px;
+    position: relative;
+}
+#button:hover {
+    background-color: #4CAF50; /* Green */
+    color:white;
+}
+#button2 {
+    font-family: 'calibri';
+    background-color: rgb(225, 201, 65);
+    font-size: 20px;
+    border-radius: 12px;
+    width: 200px;
+    border: none;
+    margin-top: -50px;
+    
+}
